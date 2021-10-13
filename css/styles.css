@@ -33,6 +33,7 @@ p {
   text-align: center;
 }
 footer {
+  padding-top: 1em;
   background-color: rgb(24, 17, 53);
   text-align: center !important;
   position: fixed;
@@ -61,4 +62,8 @@ footer hr{
     rgba(7, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
+}
+.footer:hover {
+  color: hsl(192, 99%, 75%);
+  text-decoration: none;
 }
