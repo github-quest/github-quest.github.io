@@ -40,14 +40,16 @@ p {
 footer {
   background-color: rgb(24, 17, 53);
   text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 60px;
+  min-height: 55px;
 }
+
 .foot {
   padding-top: 15px;
 }
+
 .footer {
   color: rgb(255, 255, 255);
   margin: auto;
