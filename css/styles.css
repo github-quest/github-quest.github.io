@@ -16,6 +16,9 @@ body {
 .body-font {
   color: white;
 }
+.navbar {
+  background-color: rgba(52, 58, 64, 0.6) !important;
+}
 .navbar-brand img {
   width: 40px;
   height: 40px;
@@ -31,13 +34,31 @@ p {
 }
 footer {
   background-color: rgb(24, 17, 53);
-  text-align: center;
+  text-align: center !important;
   position: fixed;
   bottom: 0;
   width: 100%;
-  min-height: 80px;
+  min-height: 100px;
+  color: rgb(255, 255, 255);
 }
 .footer {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px;;
+}
+footer hr{
+  height: 3px;
+  background-color:#fff;
+  width: 40%;
+  margin-left: 30%;
+}
+.navbar {
+  background-color: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
