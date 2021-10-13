@@ -16,6 +16,9 @@ body {
 .body-font {
   color: white;
 }
+.navbar {
+  background-color: rgba(52, 58, 64, 0.6) !important;
+}
 .navbar-brand img {
   width: 40px;
   height: 40px;
