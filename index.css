@@ -6,8 +6,8 @@
 
 body{
   font-family: 'Noto Sans Mono', monospace;
- background: rgb(36, 0, 0);
-  background: linear-gradient(90deg, rgb(128, 84, 84, 1) 0%, rgb(121, 7, 7, 1) 35%, rgb(255, 0, 0, 1) 100%);
+ background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,9,121,1) 35%, rgba(0,212,255,1) 100%);
   color: white;
 }
 .logo{
