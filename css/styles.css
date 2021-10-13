@@ -16,6 +16,9 @@ body {
 .body-font {
   color: white;
 }
+.navbar {
+  background-color: rgba(52, 58, 64, 0.6) !important;
+}
 .navbar-brand img {
   width: 40px;
   height: 40px;
@@ -30,6 +33,7 @@ p {
   text-align: center;
 }
 footer {
+  padding-top: 1em;
   background-color: rgb(24, 17, 53);
   text-align: center !important;
   position: fixed;
@@ -50,4 +54,16 @@ footer hr{
   background-color:#fff;
   width: 40%;
   margin-left: 30%;
+}
+.navbar {
+  background-color: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.footer:hover {
+  color: hsl(192, 99%, 75%);
+  text-decoration: none;
 }
