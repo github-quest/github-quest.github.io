@@ -3,22 +3,40 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* color scheme*/
+.github-dark{
+  color: #333;
+}
+.github-blue{
+  color: #4078c0;
+}
+.github-green{
+  color: #6cc644;
+}
+.github-red{
+  color: #bd2c00;
+}
+.github-purple{
+  color: #6e5494;
+}
+.github-light{
+  color: #f5f5f5;
+}
+
+/* Background Scheme */
+.bg-github-dark{
+  background-color: #333;
+}
+.bg-github-light{
+  background-color: #f5f5f5;
+}
+
 body {
   font-family: "Noto Sans Mono", monospace;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(7, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
 }
-.body-font {
-  color: white;
-}
+
 .navbar {
-  background-color: rgba(7, 9, 121, 1);
-  
+  justify-items: auto;
 }
 
 .navbar-brand img {
@@ -36,7 +54,6 @@ p {
 }
 footer {
   padding-top: 1em;
-  background-color: rgb(24, 17, 53);
   text-align: center !important;
   position: fixed;
   bottom: 0;
@@ -51,13 +68,13 @@ footer {
   padding: 20px 0px 20px 0px;
 }
 footer hr{
-  height: 3px;
+  height: 1px;
   background-color:#fff;
   width: 40%;
   margin-left: 30%;
 }
 
-.footer:hover {
-  color: hsl(192, 99%, 75%);
+.footer a:hover {
+  color: #4078c0;
   text-decoration: none;
 }
