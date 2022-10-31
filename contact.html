@@ -19,50 +19,68 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark shadow bg-github-dark">
-    <a class="navbar-brand" href="./index.html">
+  <nav class="navbar navbar-dark navbar-expand-md shadow bg-github-dark">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">
       <span aria-hidden="true" class="fab fa-github" title="GitHub"></span>
       <span class="sr-only">GitHub</span>
-       GitHub Quest</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+       GitHub Quest
+      </a>
+
+      <button id="navbar-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"
+        aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="Navbar">
       <ul class="navbar-nav ml-auto mr-auto">
-        <li class="nav-item active mr-2">
+        <li class="nav-item">
           <a class="nav-link" href="./index.html">Home </a>
         </li>
-        <li class="nav-item active mr-2">
-          <a class="nav-link" target="_blank" href="https://github.com/github-quest/github-quest.github.io">Repo</a>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://github.com/github-quest/github-quest.github.io"">Repo</a>
         </li>
-        <li class="nav-item active mr-2">
-          <a class="nav-link" href="contact.html">Contact Us</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact Us</a>
         </li>
-        
+    </div>
     </div>
   </nav>
 
-<div class="heading">
-  <h1 class="body-font">GitHub Quest</h1>
+<header class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center github-blue">
+        <h1>Contact Us</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      Follow our GitHub Repo
+    </div>
+  </div>
 </div>
 
-<p class="body-font">Good First Issues</p>
-
-<div  class="first  text-center">
+<div class="text-center">
   <h4>Contributors</h4>
     <ul>
-      <li><a href="https://www.linkedin.com/in/kaustubh---singh/">Kaustubh Singh </a></li>
-      <li><a href="https://www.linkedin.com/in/jamsher-shekh/">Jamsher  Shekh</a></li>
-      <li><a href="https://www.linkedin.com/in/pratyushpatwa/">Pratyush Patwa </a></li>
-      <li><a href="https://www.linkedin.com/in/kamaldeen-adelabu-6566371a9/">Adelabu Kamaldeen </a></li>
+      <li>Kaustubh Singh</li>
+      <li>Jamsher Shekh</li>
+      <li>Pratyush Patwa</li>
+      <li>Adelabu Kamaldeen</li>
     </ul>
-    <p>Join us by Contributing</p>
+    <p>Contributors can add their names to the list</p>
  </div>
 
 <footer class="footer bg-github-dark">
-  <a class="footer" target="_blank" href="https://github.com/github-quest/github-quest.github.io">GitHub Repo</a>
   <a class="footer" target="_blank" href="https://hacktoberfest.digitalocean.com/">Hacktoberfest 2022</a>
+  |
+  <a class="footer" target="_blank" href="https://github.com/github-quest/github-quest.github.io">GitHub Repo</a>
   <hr>
   Built Using GitHub
 </footer>
